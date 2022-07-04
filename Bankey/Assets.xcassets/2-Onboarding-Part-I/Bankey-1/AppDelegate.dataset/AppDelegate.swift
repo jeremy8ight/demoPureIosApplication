@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Bankey
 //
-//  Created by Jeremy Barnes-Smith on 7/4/22.
+//  Created by jrasmusson on 2021-09-23.
 //
 
 import UIKit
@@ -17,12 +17,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         window?.backgroundColor = .systemBackground
-//      window?.rootViewController = LoginViewController()
-//        window?.rootViewController = OnboardingContainerViewController()
-        window?.rootViewController = OnboardingViewController()
-        
+//        window?.rootViewController = LoginViewController()
+//        window?.rootViewController = AccountSummaryViewController()
+        window?.rootViewController = OnboardingContainerViewController()
+
         return true
     }
-    
 }
-
